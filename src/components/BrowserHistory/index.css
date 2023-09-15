@@ -1,0 +1,46 @@
+.list-item {
+  font-family: 'Roboto';
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 12px;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.time {
+  color: #64748b;
+  font-weight: bold;
+  padding-right: 22px;
+}
+
+.image {
+  height: 22px;
+  padding-right: 10px;
+}
+
+.name {
+  color: #475569;
+  font-weight: bold;
+  padding-right: 10px;
+}
+
+.domain {
+  color: #475569;
+  padding-right: 10px;
+}
+
+.delete-icon {
+  height: 14px;
+  padding-right: 22px;
+}
+
+.delete {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
